@@ -18,7 +18,7 @@ public class PrimeFinder implements Runnable {
         long numPrimes = 0;
         long candidate = 2;
         while (numPrimes < target) {
-            if (isPrime(target)) {
+            if (isPrime(candidate)) {
                 numPrimes++;
                 prime = candidate;
             }
